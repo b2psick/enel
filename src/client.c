@@ -28,7 +28,7 @@ int main() {
         return EXIT_FAILURE;
     }
 
-    if(connect(client_fd, (struct sockaddr *)&server_addr, sizeof(server_addr) == -1)) {
+    if(connect(client_fd, (struct sockaddr *)&server_addr, sizeof(server_addr)) == -1) {
         perror("connect");
         close(client_fd);
         return EXIT_FAILURE;

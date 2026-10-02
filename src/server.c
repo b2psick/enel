@@ -6,7 +6,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-#define PORT 0001
+#define PORT 9001
 #define BUFFER_SIZE 1024
 
 int main() {
