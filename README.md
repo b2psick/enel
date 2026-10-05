@@ -1,4 +1,4 @@
-# enel# LAN Peer-to-Peer File Transfer
+# LAN Peer-to-Peer File Transfer
 
 A simple peer-to-peer file transfer application written in C using TCP sockets. It allows two devices on the same local network to transfer files directly without relying on a central file-storage server.
 
