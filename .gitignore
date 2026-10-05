@@ -1,1 +1,13 @@
 .notes
+server
+client
+*.o
+build/
+bin/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+downloads/*
+!downloads/.gitkeep
