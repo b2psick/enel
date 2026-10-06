@@ -8,10 +8,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-
-#define PORT 9001
-#define BUFFER_SIZE 65536
-#define MAX_FILENAME 255
+#include "config.h"
 
 int recv_all(int fd, void *data, size_t length) {
     char *ptr = data;

@@ -9,10 +9,7 @@
 #include <sys/stat.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-
-#define PORT 9001
-#define BUFFER_SIZE 65536
-#define MAX_FILENAME 255
+#include "config.h"
 
 int send_all(int fd, const void *data, size_t length) {
     const char *ptr = data;
