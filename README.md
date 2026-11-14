@@ -37,8 +37,8 @@ A simple peer-to-peer file transfer application written in C using TCP sockets. 
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_NAME>
+git clone [<YOUR_REPOSITORY_URL>](https://github.com/b2psick/enel.git)
+cd enel
 ```
 
 Compile the project:
